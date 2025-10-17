@@ -32,6 +32,12 @@ def ver_estatisticas(pacientes):
         print("⚠️ Nenhum paciente cadastrado ainda.")
         return
 
+
+
+
+
+
+
     total = len(pacientes)
     idade_media = sum(p["idade"] for p in pacientes) / total
     paciente_mais_novo = min(pacientes, key=lambda x: x["idade"])
